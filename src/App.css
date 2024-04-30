@@ -1,0 +1,58 @@
+.spinner {
+  width: 128px;
+  height: 128px;
+  border: 17.6px #4a4a6c double;
+  border-left-style: solid;
+  border-radius: 50%;
+  animation: spinner-aib1d7 0.8999999999999999s infinite linear;
+}
+
+.heading {
+  background: linear-gradient(
+    to bottom right,
+    rgb(50 253 255) 10%,
+    rgb(157 171 171) 79%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+@keyframes spinner-aib1d7 {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+ul li {
+  font-size: 20px;
+}
+.snow {
+  background: url("./assets/WeatherImages/snow.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.fog {
+  background: url("./assets/WeatherImages/fog.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.clouds {
+  background: url("./assets/WeatherImages/cloud.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sunny {
+  background: url("./assets/WeatherImages/sunny.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.rain {
+  background: url("./assets/WeatherImages/raining.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.thunderStorm {
+  background: url("./assets/WeatherImages/thunderstorm.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
